@@ -1,0 +1,62 @@
+{
+  "name": "ifmsabrazil",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@material-ui/core": "^4.12.4",
+    "@mui/material": "^5.15.18",
+    "@mui/system": "^5.15.15",
+    "@vitejs/plugin-react": "^4.3.0",
+    "axios": "^1.7.2",
+    "markdown-to-jsx": "^7.4.7",
+    "papaparse": "^5.4.1",
+    "prismjs": "^1.29.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-multi-carousel": "^2.8.5",
+    "react-router-dom": "^6.23.1",
+    "react-simple-maps": "^3.0.0",
+    "rollup-plugin-visualizer": "^5.12.0",
+    "styled-components": "^6.1.11",
+    "vite": "^5.2.11",
+    "vite-plugin-compression": "^0.5.1",
+    "vite-plugin-md": "^0.21.5",
+    "webfontloader": "^1.6.28",
+    "xlsx": "^0.18.5"
+  },
+  "version": "1.0.0",
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --port 3000",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
